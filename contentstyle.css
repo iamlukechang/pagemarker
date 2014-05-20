@@ -1,0 +1,110 @@
+#Pagemarker-Chrome {
+  position: fixed;
+  max-width: 520px;
+  right: 0;
+  bottom: 20px;
+  color: #7b7b7b;
+  -webkit-user-select: none;
+  z-index: 2147483647;
+}
+
+#Pagemarker-Chrome:hover .pagemarkerWidgets .pagemarkerMove {
+  opacity: 0.5;
+}
+
+#Pagemarker-Chrome .pagemarkerButton {
+  position: relative;
+  float: left;
+  border: 0;
+  padding: 0;
+  margin: 0 2px 2px 0;
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#dcdcdc));
+  background: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
+  font-size: 16px;
+  font-family: calibri, arial, sans-serif;
+}
+
+#Pagemarker-Chrome .pagemarkerButton:hover {
+  cursor: pointer;
+}
+
+#Pagemarker-Chrome .pagemarkerButton:active {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dcdcdc), to(#fefefe));
+  background: -webkit-linear-gradient(top, #dcdcdc, #fefefe);
+}
+
+#Pagemarker-Chrome .pagemarkerButton.textIcon {
+  padding: 15px 0;
+  height: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#Pagemarker-Chrome .pagemarkerButton canvas, #Pagemarker-Chrome .pagemarkerWidgets .pagemarkerMove canvas {
+  position: absolute;
+  left: 0;
+  height: inherit;
+}
+
+#Pagemarker-Chrome .saveButton {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+}
+
+#Pagemarker-Chrome .pagemarkerWidgets {
+  position: relative;
+  float: left;
+  width: 0;
+}
+
+#Pagemarker-Chrome .pagemarkerWidgets .pagemarkerNote {
+  position: absolute;
+  bottom: 0;
+  right: -52px;
+  border: 0;
+  padding: 2px 5px;
+  margin: 0 0 5px 0;
+  width: 248px;
+  height: auto;
+  min-height: 30px;
+  word-wrap: break-word; 
+  word-break: normal; 
+  text-align: left;
+  line-height: 26px;
+  -webkit-border-radius: 5px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#dcdcdc));
+  background: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
+  font-size: 16px;
+  font-family: calibri, arial, sans-serif;
+}
+
+#Pagemarker-Chrome .pagemarkerWidgets .pagemarkerMove {
+  position: absolute;
+  right: 5px;
+  bottom: -50px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#dcdcdc));
+  background: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
+  -webkit-border-radius: 5px;
+}
+
+#Pagemarker-Chrome .pagemarkerWidgets .pagemarkerMove:hover {
+  cursor: move;
+}
+
+#Pagemarker-Chrome .pagemarkerWidgets .noteInput {
+  width: 176px;
+}
+
+
+#Pagemarker-Chrome.floating .pagemarkerButton:last-of-type {
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+}

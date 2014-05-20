@@ -1,0 +1,9 @@
+#Pagemarker-Chrome-Alert {
+  position: fixed;
+  top: 10px;
+  padding: 5px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+}
